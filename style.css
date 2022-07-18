@@ -10,6 +10,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*--------------------
-    Default Rules 
- ---------------------*/
+/*-----------------------
+    Common Style Rules
+ ------------------------*/
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
